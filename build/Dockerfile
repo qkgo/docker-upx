@@ -29,7 +29,7 @@ RUN curl -LO http://upx.sourceforge.net/download/upx-${UPX_VER}-src.tar.bz2 \
     && make all
 
 # packs itself
-CMD /upx-${UPX_VER}-src/src/upx.out --best --ultra-brute -o/release/upx /upx-${UPX_VER}-src/src/upx.out
+CMD /upx-${UPX_VER}-src/src/upx.out --best --ultra-brute -o /release/upx /upx-${UPX_VER}-src/src/upx.out
 
 
 
