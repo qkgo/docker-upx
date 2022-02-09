@@ -20,7 +20,7 @@ ENV UPX_LZMADIR /
 VOLUME /release
 
 ENV UPX_UCLDIR=/ucl-${UCL_VER}
-ENV UPX_VER 3.91
+ENV UPX_VER 3.96
 RUN curl -LO http://upx.sourceforge.net/download/upx-${UPX_VER}-src.tar.bz2 \
     && bunzip2 upx-${UPX_VER}-src.tar.bz2  \
     && tar -xvf upx-${UPX_VER}-src.tar \
